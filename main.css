@@ -1,0 +1,45 @@
+body {
+    background-color: beige;
+}
+
+.header {
+	color: white;
+	background-color: black;
+	font-size: 20px;
+	text-align: center;
+    padding: 15px;
+}
+
+.textbox-left {
+    display: table;
+    padding: 20px;
+    width: 50%
+}
+
+.bio {
+    display: table-cell;
+    padding-left: 10px;
+}
+
+.textbox-right {
+	display: table;
+    padding: 20px;
+    width: 50%
+}
+
+/*
+
+.textboxes {
+    float: left;
+    width: 48%;
+    margin: 1%;
+}
+.contactinfo {
+    word-break: break-all;
+}
+
+.bio {
+	display: table-cell;
+}
+
+*/
