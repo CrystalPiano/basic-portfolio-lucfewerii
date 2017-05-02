@@ -1,3 +1,6 @@
+* {
+    box-sizing: border-box;
+}
 
 body {
     background-color: beige;
@@ -9,43 +12,20 @@ body {
 	font-size: 20px;
 	text-align: center;
     padding: 15px;
+    margin-bottom: 20px;
 }
 
-.textbox-left {
+.bio {
+}
+
+.flex {
   display: flex;
-  height: 300px; /* Or whatever */
+  flex-wrap: wrap;
+  border: 1px solid black;
+  width: 1440px;
+  margin: 0 auto;
 }
 
-h3, img, .bio {
-  width: 100px;  /* Or whatever */
-  height: 100px; /* Or whatever */
-  margin: auto;  /* Magic! */
+.flexchild {
+    flex: 1;
 }
-}
-
-.bio {
-    display: table-cell;
-    padding-left: 10px;
-}
-
-.textbox-right {
-    display: flex;
-    flex-direction: column;
-}
-
-/*
-
-.textboxes {
-    float: left;
-    width: 48%;
-    margin: 1%;
-}
-.contactinfo {
-    word-break: break-all;
-}
-
-.bio {
-	display: table-cell;
-}
-
-*/
