@@ -11,26 +11,42 @@
 </head>
 <body>
 	
-	<div class="header">
-		<div class="yourname">Luc Fewer II</div>
+	<div class="header flex">
+		<div class="yourname flexchild">Luc Fewer II</div>
 
-		<div class="navmenu">Nav Menu</div>
+		<nav class="navmenu flex">Nav Menu</nav>
+
+			<nav class="about flexchild">About</nav>
+
+				<div class="navspacerbar flexchild">|</div>
+
+			<nav class="portfolio flexchild">Portfolio</nav>
+
+				<div class="navspacerbar flexchild">|</div>
+
+			<nav class="contact flexchild">Contact</nav>
+
+				<div class="navspacerbar flexchild">|</div>
 	</div>
+
+	<section>
 
 	<div class="maincontentfield">Main Content Field
 		
-		<div class="aboutmebox">About Me Container
+		<div class="aboutmebox">About Me Box
 
 			<div class="aboutme">About Me</div>
 
 			<div class="spacerbar">Spacer Bar</div>
 
 			<div class="myimage">My Image
-				<img src="images/lucpicture1.jpg" width="20" height="20">
+				<img src="images/lucpicture1.jpg" width="20" height="20" alt="Picture of Luc">
 			</div>
 
 			<div class="mybio">My Biography
+
 				<p>My Bio Text Field</p>
+
 			</div>
 
 		</div>
@@ -59,11 +75,11 @@
 
 	</div>
 
-	<div class="Footer">
-		
-		<p>© Copyright 2017 Luc Fewer II</p>
+	</section>
 
-	</div>
+	<footer>
+		<p>© Copyright 2017 Luc Fewer II</p>
+	</footer>
 
 </body>
 </html>
