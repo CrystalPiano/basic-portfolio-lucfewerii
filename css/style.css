@@ -15,6 +15,8 @@ body {
 .header {
   border-bottom: 3px solid #cccccc /*Main header border color*/;
   background-color: #ffffff /*Main header background color*/;
+  padding-left: 350px;
+  font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
 }
 
 .maincontentfield:after {
@@ -28,13 +30,15 @@ body {
   width: 960px;
   margin: 0 auto;
   background-color: #ffffff /*Main content background color*/;
-  margin:;
+  margin-top: 20px;
 }
 
 .textboxleft {
   float: left;
   background-color: #4aaaa5 /*TEAL*/;
   color: #777777 /*Regular font color*/;
+  padding: 20px;
+  font-family: 'Georgia', Times, Times New Roman, serif;
 }
 
 .aboutmebox {
@@ -46,6 +50,13 @@ body {
 
 .aboutme {
   color: #4aaaa5 /*TEAL*/;
+  padding: 20px;
+  border-bottom: 3px solid #cccccc /*Main header border color*/;
+  font-family: 'Georgia', Times, Times New Roman, serif;
+}
+
+p {
+  font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
 }
 
 .connectwithmebox {
@@ -58,7 +69,8 @@ body {
 
 .connectwithme {
   color: #4aaaa5 /*TEAL*/;
-  border-bottom: 1px solid gray;
+  border-bottom: 2px solid gray;
+  font-family: 'Georgia', Times, Times New Roman, serif;
 }
 
 .nav {
@@ -76,4 +88,5 @@ footer {
   width: 100%;
   border-top: 5px solid teal;
   background-color: #666666 /*Footer background color*/;
+  text-align: center;
 }
