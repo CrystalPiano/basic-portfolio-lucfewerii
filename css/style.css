@@ -54,7 +54,6 @@ color: white;
   display: table;
   clear: both;
   width: 650px;
-  height: "";
 }
 
 .contentleft:after {
@@ -75,6 +74,14 @@ color: white;
   background-color: #ffffff /*Main content background color*/;
   margin-top: 20px;
   margin-left: 350px;
+}
+
+.myimage {
+
+}
+
+.mybio {
+
 }
 
 .textboxleft {
@@ -106,6 +113,7 @@ color: white;
 
 p {
   font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+  color: grey;
 }
 
 .contentright:after {
@@ -147,7 +155,14 @@ p {
 .navmenu {
   float: right;
   padding-top: 20px;
+  font-family: 'Georgia', Times, Times New Roman, serif;
+  font-size: 18px;
 
+}
+
+a {
+  text-decoration: none;
+  color: grey;
 }
 
 footer {
@@ -155,7 +170,7 @@ footer {
   bottom: 0;
   clear: both;
   width: 100%;
-  border-top: 5px solid teal;
+  border-top: 10px solid #4aaaa5;
   background-color: #666666 /*Footer background color*/;
   text-align: center;
   color: #777777 /* Regular Font Color */;
