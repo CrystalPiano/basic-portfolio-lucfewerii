@@ -67,6 +67,7 @@ body {
 
 .mybioandpic img {
   float: left;
+  margin-right: 20px;
 }
 
 .p1 {
@@ -110,7 +111,7 @@ p {
   float: left;
   width: 270px;
   background-color: #ffffff;
-  margin-left: 40px;
+  margin-left: 60px;
   margin-top: 20px;
   border: 2px solid #dddddd;
 }
