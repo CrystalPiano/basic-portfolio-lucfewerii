@@ -10,7 +10,12 @@ h3 {
 }
 
 .connectwithmebox {
-	border: solid green 1px;
+ 	float: left;
+ 	width: 270px;
+ 	background-color: #ffffff;
+ 	/*margin-left: 40px;
+ 	margin-top: 20px;*/
+ 	border: 2px solid #dddddd;
 }
 
 .connectwithme {
@@ -20,11 +25,13 @@ h3 {
 	font-size: 20px;
 	font-weight: bold;
  	text-align: center;
+ 	margin: 20px;
 }
 
 .socialicons {
 	margin-top: 20px;
 	margin-bottom: 20px;
+	text-align: center;
 }
 
 .fa:hover {
