@@ -31,11 +31,6 @@ body {
   margin-top: 20px;
 }
 
-.fa-github {
-background: grey;
-color: white;
-}
-
 .header:after {
   content: "";
   display: table;
