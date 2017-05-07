@@ -34,6 +34,23 @@ body {
   clear: both;
 }
 
+.nav {
+  display: inline-block;
+  margin-left: 10px;
+}
+
+.nav1 { 
+  padding-right: 10px;
+  border-right: grey solid 1px;
+}
+
+.navmenu {
+  float: right;
+  padding-top: 20px;
+  font-family: 'Georgia', Times, Times New Roman, serif;
+  font-size: 18px;
+}
+
 .maincontentfield {
   border: solid 2px #dddddd /*Main content border color*/;
   margin: 0 auto;
@@ -48,24 +65,20 @@ body {
   clear: both;
 }
 
-.myimage {
-
-}
-
-.myimage:after {]
-  clear: both;
+.mybioandpic img {
   float: left;
 }
 
-.mybio {
-  float: right;
-  clear: both;
+.p1 {
+  margin: 30px;
+  font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+  color: grey;
 }
 
 .textboxleft {
   float: left;
-  background-color: #4aaaa5 /*TEAL*/;
-  color: #ffffff /*Main content background color*/;
+  background-color: #4aaaa5;
+  color: #ffffff;
   padding: 20px;
   font-family: 'Georgia', Times, Times New Roman, serif;
   font-size: 25px;
@@ -91,8 +104,6 @@ body {
 p {
   font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
   color: grey;
-  float: right;
-  display: table;
 }
 
 .connectwithmebox {
@@ -122,18 +133,6 @@ p {
 
 .fa:hover {
     opacity: 0.7;
-}
-
-.nav {
-  display: inline-block;
-}
-
-.navmenu {
-  float: right;
-  padding-top: 20px;
-  font-family: 'Georgia', Times, Times New Roman, serif;
-  font-size: 18px;
-
 }
 
 a {
