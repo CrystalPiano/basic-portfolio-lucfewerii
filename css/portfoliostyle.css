@@ -48,7 +48,15 @@ a {
   font-size: 18px;
 }
 
-
+.portfolioheader {
+  color: #4aaaa5;
+  margin-left: 20px;
+  margin-right: 20px;
+  padding: 20px 0px 20px 0px;
+  font-weight: bold;
+  font-size: 30px;
+  border-bottom: 3px solid #cccccc /*Main header border color*/; 
+}
 
 .contentleft {
   float: left;
@@ -56,17 +64,53 @@ a {
   display: table;
   clear: both;
   width: 590px;
-}
-
-.mainportfoliofield {
-  border: solid 2px #dddddd /*Main content border color*/;
-  margin: 0 auto;
-  background-color: #ffffff /*Main content background color*/;
-  margin-top: 20px;
   margin-left: 350px;
 }
 
+.mainportfoliofield {
+  border: solid 2px #dddddd;
+  margin: 0 auto;
+  background-color: #ffffff;
+  margin-top: 20px;
+}
 
+.overwrap {
+  border: green solid 2px;
+}
+
+.overwrap:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/*
+.imagewrapper1 {
+  border: green solid 2px;
+  float: left;
+}
+
+.imagewrapper2 {
+  border: green solid 2px;
+  float: right;
+}
+
+.imagewrapper3 {
+  border: green solid 2px;
+  float: left;
+}
+
+.imagewrapper4 {
+  border: green solid 2px;
+  float: right;
+}
+
+.imagewrapper5 {
+  border: green solid 2px;
+  float: left;
+}
+
+*/
 
 .connectwithmebox {
   float: left;
