@@ -75,13 +75,17 @@ a {
 }
 
 .overwrap {
-  border: green solid 2px;
+  margin: 10px 0px 10px 0px;
 }
 
 .overwrap:after {
   content: "";
   display: table;
   clear: both;
+}
+
+img {
+  margin: 0px 10px 0px 0px;
 }
 
 /*
